@@ -1,0 +1,4 @@
+Kendala Tugas API Testing :
+Masih binggung untuk API testing jika harus dijadikan dalam satu test skenario. Semisal pada TC Insert User yang jika digabungkan dengan
+TC Insert Posts di Object Insert Post butuh user_id untuk post seementara di Insert User id digenerate setelaah sukses menambahkan. Saya binggung untuk mengambil 
+id untuk dijadikan inputan ke user_id jika TC dijadikan satu. untuk tugas yang saya kerjakan masih terpish antar TC dengan file Data sheet yang berbeda 

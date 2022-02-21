@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - 02 - Insert Posts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b5a3df43-d660-4060-863f-1cabfdd971b1</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eb8bb450-1543-41c0-8fbc-099cb2370e0a</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>10da0cc2-c624-4aff-8039-bbb5206d3c7a</id>
+      <masked>false</masked>
+      <name>Body</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>350e4665-4a51-452c-84eb-c0ffe48aa773</id>
+      <masked>false</masked>
+      <name>user_id</name>
+   </variable>
+</TestCaseEntity>

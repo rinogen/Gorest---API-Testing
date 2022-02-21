@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS - Insert</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>a3a28f51-057b-48a5-b0f9-02abb8ef65f5</testSuiteGuid>
+   <testCaseLink>
+      <guid>46cad476-0b13-4930-97c4-e2f2be7c3afd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC - 01 - Insert Users</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7bb21ac6-5c39-4cd0-8143-58bdfe3ef294</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Users</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>7bb21ac6-5c39-4cd0-8143-58bdfe3ef294</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Name</value>
+         <variableId>9e5151c9-83f0-40f7-a8e0-444da676effb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7bb21ac6-5c39-4cd0-8143-58bdfe3ef294</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Gender</value>
+         <variableId>8a819542-a456-487c-8ba5-260576dd4aca</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7bb21ac6-5c39-4cd0-8143-58bdfe3ef294</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>ef61bda3-91da-4f99-b483-2d03f5076e09</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7bb21ac6-5c39-4cd0-8143-58bdfe3ef294</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Status</value>
+         <variableId>b25242c7-aaaf-4cd4-bb39-2f53e7bf139d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>235d42d6-86a2-43a4-88aa-8d2f520541ce</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC - 02 - Insert Posts</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>360053e2-6d17-4835-b81d-7afdb7f996a9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Posts</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>360053e2-6d17-4835-b81d-7afdb7f996a9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Title</value>
+         <variableId>eb8bb450-1543-41c0-8fbc-099cb2370e0a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>360053e2-6d17-4835-b81d-7afdb7f996a9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Body</value>
+         <variableId>10da0cc2-c624-4aff-8039-bbb5206d3c7a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>360053e2-6d17-4835-b81d-7afdb7f996a9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>user_id</value>
+         <variableId>350e4665-4a51-452c-84eb-c0ffe48aa773</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
